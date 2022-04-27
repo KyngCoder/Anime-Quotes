@@ -28,7 +28,7 @@ function Main({searchTerm,category}) {
       }
     
       useEffect(()=>{
-       //getAnime()
+       getAnime()
       },[searchTerm])
   return (
 
