@@ -29,15 +29,13 @@ function Main({ searchTerm, category }) {
   };
 
  
-const checkState = () => {
 
-}
 
-<<<<<<< HEAD
+
   useEffect(() => {
     getAnime();
   }, [searchTerm]);
-=======
+
 
 import React from 'react'
 import {v4} from 'uuid'
@@ -67,8 +65,7 @@ function Main({searchTerm,category}) {
     
       useEffect(()=>{
        getAnime()
-      },[searchTerm])
->>>>>>> 7c89be7aa4a7f2b21698abcd1b4d058c5c7b8b68
+      },[searchTerm]) 
   return (
     <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 m-6">
       {animeList.map(anime => {
@@ -85,8 +82,4 @@ function Main({searchTerm,category}) {
   );
 }
 
-<<<<<<< HEAD
 export default Main;
-=======
-export default Main
->>>>>>> 7c89be7aa4a7f2b21698abcd1b4d058c5c7b8b68
